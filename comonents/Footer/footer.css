@@ -1,0 +1,60 @@
+/* General Footer Styles */
+.footer {
+    background-color: #282c34;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-contact {
+    margin-top: 15px;
+}
+
+.footer-contact h4 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #ffcc00;
+}
+
+.footer-contact a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 5px 10px;
+}
+
+.footer-contact a i {
+    margin-right: 5px;
+    font-size: 1.2rem;
+}
+
+.footer-contact a:hover {
+    color: #ffcc00;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .footer {
+        padding: 15px;
+    }
+
+    .footer-content {
+        font-size: 0.9rem;
+    }
+
+    .footer-contact a {
+        display: block;
+        margin: 10px 0;
+    }
+}
